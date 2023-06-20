@@ -2,6 +2,8 @@ export default {
   port: 1337,
   dbUri: "mongodb+srv://Alexander:12345@tomtech.7yp1a1d.mongodb.net/",
   saltWorkFactor: 10,
+  accessTokenTtl: "15m",
+  refreshTokenTtl: "1y",
   publicKey: `-----BEGIN PUBLIC KEY-----
   MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw59CMLJe2Z1cALWKljfS
   Dxq4yhXasLqIgjLMCwuano1ob88qtzNf0PtbK7aNkSsuzv1LW2m3buVTu+y22VBB
