@@ -33,5 +33,5 @@ export async function createUserSessionHandler(req: Request, res: Response) {
 }
 
 export async function getUserSessionHandler(req: Request, res: Response) {
-
+  const user = res.locals.user
 }
